@@ -1,0 +1,63 @@
+.reply-panel {top: 0;z-index: 1060;}
+#city_detail_table .sel_city_sf a {font-size: 12px;color: #428bca;}
+#city_detail_table .city_names_wrap a {font-size: 12px;color: #428bca;}
+#hot_city_ids a {margin-right: 7px;*margin-right: 1px;font-weight: bold  }
+#featureListPanelBorder{min-height: 120px; max-height: 834px;overflow-y: scroll;overflow-x: hidden;padding-bottom: 100px;}
+/*infowindow弹窗表格样式*/
+#info_table tbody tr th{font-size: 12px;font-weight: 400;border-top:none;padding:5px 0px 5px 5px;width: 90px;text-align: right;line-height: 24px;}
+#info_table tbody tr td{font-size: 12px;border-top:none;padding:5px;line-height: 24px;}
+/*infowindow弹窗圆角样式*/
+.anchorBL{display:none;}
+.BMap_bubble_title{color:black;font-size:13px;font-weight: bold;text-align:left;}
+.BMap_pop div:nth-child(1){border-radius:7px 0 0 0;}
+.BMap_pop div:nth-child(3){border-radius:0 7px 0 0;background:#ABABAB;}
+.BMap_pop div:nth-child(3) div{border-radius:7px;}
+.BMap_pop div:nth-child(5){border-radius:0 0 0 7px;}
+.BMap_pop div:nth-child(5) div{border-radius:7px;}
+.BMap_pop div:nth-child(7){border-radius:0 0 7px 0;}
+
+#distanceBtn{right: 14px;top:156px;border-radius: 5px;z-index:401;width:32px;height:32px}
+/*#pullBoxSearch{right:14px; top:84px;border-radius: 5px;z-index:401;width:32px;height:32px}*/
+#shareMap{right: 14px;top:192px;border-radius: 5px;z-index:401;width:32px;height:32px}
+#search_control{right:14px; top:120px;border-radius: 5px;z-index:401;width:32px;height:32px}
+#search_area{right:14px; top:10px;border-radius: 5px;z-index:401;width:32px;height:32px}
+#pullbox{right: 14px;top: 84px;border-radius: 5px;z-index: 401;width: 32px;height: 32px;line-height: 32px;text-align: center;font-size: 18px;background: #fff;color:#919191}
+#pullstyle{right: 14px;top: 47px;border-radius: 5px;z-index: 401;width: 32px;height: 32px;line-height: 32px;text-align: center;font-size: 18px;background: #fff;color:#919191}
+.font-red{color: #d43f3a;font-size: 14px;}
+.font-green{color: #5cb85c;font-size: 14px;}
+.font-blue{color: #5bc0de;}
+.font-yellow{color: #F1C40F;}
+.numIcon{height: 32px;width: 74px;margin-right: 5px;color: #fff;font-weight: 700;background-repeat: no-repeat;background-position: left 50%;text-align: center;background-size: 14px 22px;}
+.numIcon span{display: inline-block;font-size: 12px; height: 24px;width: 24px;text-align: center; line-height: 24px;margin: 2px 4px;border-radius: 12px;background: #00a2ca;}
+/*提示信息弹窗*/
+.alertIcon{display: inline-block;font-size: 34px;height: 34px;float: left;margin: 0 8px 0 50px;}
+.alertText{display: inline-block;font-size: 15px;height: 34px;line-height: 34px;}
+/*模态框居中*/
+.tb {display: table;pointer-events: none;width: 100%;height: 100%;  }
+.tb>.tc {display: table-cell;pointer-events: none;vertical-align: middle;}
+.tb>.tc>div {pointer-events: auto;}
+/*提示框样式*/
+.txtBox{margin: 40px 64px;height: 88px;overflow: hidden;padding: 0;}
+.txtBox p{height: 84px;line-height: 26px;overflow-x: hidden;overflow-y: auto;font-weight: bold;color: #535e66;}
+.bigIcon{float: left;margin-right: 20px;width: 48px;height: 48px;background: url(/images/icons.png) no-repeat -48px 0px;}
+
+.icon_tools{width: 32px;height: 31px;top: 0;line-height: 31px;color: #919191;font-size: 20px;cursor: pointer;padding-left: 6px;padding-right: 6px;float: left;}
+.icon_tools:hover{background-color: #e0e0e0;}
+
+.map_style{right: 7px;top: 87px;width: 190px;height: 190px;z-index: 100;padding: 6px;border: solid 2px #00a2ca;border-radius: 5px;background: #fff;}
+.map_style a{display: inline-block;width: 54px; height:54px; float: left;margin: 0 4px 4px 0;text-align: center;border: solid 1px #ccc;}
+.map_style a span{display: inline-block;margin-top: 36px;width: 100%;background: #ccc;color: #fff;font-size: 12px;}
+.style-img1{background-image: url(/images/normal.png);}
+.style-img2{background-image: url(/images/light.png);}
+.style-img3{background-image: url(/images/dark.png);}
+.style-img4{background-image: url(/images/redalert.png);}
+.style-img5{background-image: url(/images/googlelite.png);}
+.style-img6{background-image: url(/images/grassgreen.png);}
+.style-img7{background-image: url(/images/midnight.png);}
+.style-img8{background-image: url(/images/weixing.png);}
+.style-img9{background-image: url(/images/bluish.png);}
+
+
+
+
+

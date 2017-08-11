@@ -1,0 +1,89 @@
+body{margin:0;overflow-x:hidden;font-family:"microsoft yahei"}
+a{cursor:pointer;text-decoration:none}
+a,button,input[type=checkbox],select{cursor:pointer}
+header{background-color:transparent;float:left;width:100%;position:fixed;top:0;left:0;z-index:1}
+.fixed-header{background-color:rgba(0,0,0,.5);z-index:1}
+.header-div{width:100%}
+.dth-h60{height:60px}
+.header-main{margin:0 auto;width:1000px;position:relative;height:60px;vertical-align:middle}
+.logo-div{float:left;height:60px;margin-top:10px;}
+.logo-hover:hover{text-decoration:none}
+.logo-img{float:left}
+.nav-div{float:right;height:60px;width:660px;margin-top:0;margin-bottom:0;top:0}
+ul.nav-bar{list-style:none outside none;position:relative;padding:0;margin:0}
+.dth-color4d{color:#fff;text-decoration:none;font-size:16px}
+ul .dth-color4d:hover{color:#4d4d4d}
+ul .nav-li{float:left;height:60px;line-height:60px;width:84px;text-align:center;text-decoration:none}
+.dth-hover:hover{cursor:pointer;background-color:#e6e6e6;text-decoration:none}
+.header-selected{line-height:52px;border-top:4px solid #ff9800}
+.pull-right{float:right!important}
+.pull-left{float:left!important}
+.user-login-panel{width:100px}
+.user-info{height:60px;margin-top:5px;line-height:50px; width:150px;vertical-align:middle}
+.user-info img{border-radius:50%;margin-right:5px;float:left;margin-top:10px;width:30px;height:30px}
+.user-info a{color:#fff;float:left;max-width:100px;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}
+.login-li{float:right;height:60px;line-height:60px}
+.login-a{font-size:16px;text-decoration:none;cursor:pointer;color:#fff;text-decoration:none;font-size:16px}
+ul .reg:hover{color:inherit}
+.dth-black{color:#fff;font-weight:800;padding:5px;font-style:normal}
+.div-content{width:100%}
+#home-banner{padding-top:160px;width:100%;height:607px;background:url(../images/banner-image2.png) no-repeat;text-align:center;vertical-align:middle}
+.white{font:bolder 36px "microsoft yahei";color:#fff}
+.banner-line1{width:100%;margin-bottom:45px;font-size:58px}
+.banner-line2{font-size:38px;margin-bottom:72px;width:100%}
+.banner-btn1{display:block;width:168px;height:33px;border-radius:5px;padding:6px;background-color:#44c8dc;font:bolder 24px "microsoft yahei";color:#fff;text-decoration:none;margin:0 auto;text-align:center}
+.banner-btn2{display:block;width:280px;height:52px;line-height:80px;border-radius:5px;padding:10px;background-color:#44c8dc;font:bolder 36px "microsoft yahei";color:#fff;text-decoration:none;margin:80px auto 0;text-align:center}
+.banner-btn2:hover{background-color:#3fb9cb}
+.adver-back-odd{width:1000px;background-color:#fff;height:auto;position:relative;margin:0 auto}
+.adver-back-eve{width:100%;background-color:#3fb2c3;height:auto;position:relative}
+.adver-content{margin:0 auto;width:1000px;height:490px;vertical-align:middle}
+.adver-bgc{background-color:#44c8dc}
+.aderver-text-content-odd{margin-left:25px;width:480px;float:left;margin-right:15px;padding-top:85px}
+.div-content-ti{font:700 42px "microsoft yahei";color:#828282}
+.div-content-co{font-size:24px;word-break:break-all;color:#b5b5b5;line-height:40px;width:450px}
+.pic-odd{float:left;width:364px;height:364px;margin:60px 65px 0 50px}
+.pic-odd1{background:url(../images/image_data.png) no-repeat}
+.pic-odd3{background:url(../images/icon_collaboration.png) no-repeat}
+.pic-bgc{float:right;height:360px;width:360px;margin:60px;background:url(../images/iamge_composition.png) no-repeat}
+.back-right{right:0}
+.cyclo-pic{background:url(../images/image_statistics.png) no-repeat;height:360px;width:360px;float:right;margin:60px}
+.aderver-text-content-eve{width:450px;float:left;padding:100px 0 0 50px}
+.aderver-text-content-eve .div-content-co,.aderver-text-content-eve .div-content-ti{color:#fff}
+.case-div{width:100%}
+.center-title{width:100%;text-align:center;padding:50px 0 70px 0;margin:0}
+.content-w1000{margin:0 auto;width:1000px;position:relative}
+.computer-image{float:left;margin-left:100px}
+.points{width:170px;list-style:none;margin:0}
+.points li{height:80px;margin:0px;position:relative;left:0;transition:.3s linear;width: 150px;}
+.left-points{float:left;text-align:right;padding:0 56px 0 16px}
+.left-points li:hover{left:30px}
+.left-points li:hover:after{content:"";position:absolute;height:14px;width:8px;font-size:20px;font-weight:bolder;color:#828282;right:-66px;top:11px;background:url(../img/icons.png) no-repeat 0 -269px}
+.right-points{float:right}
+.right-points li:hover{left:-30px}
+.right-points li:hover:after{content:"";position:absolute;height:14px;width:8px;font-size:20px;font-weight:bolder;left:-66px;color:#828282;top:12px;background:url(../img/icons.png) no-repeat 0 -292px}
+.point{font-size:14px;color:#828282;margin-bottom:5px}
+.point-disc{font:12px/20px "microsoft yahei";color:#999;margin:0}
+.point-disc span{display:block}
+.point-disc a{color:#44c8dc}
+.left-point-icon{position:absolute;right:-50px;top:0}
+.right-point-icon{position:absolute;left:-50px;top:0}
+.case-horizen{width:100%;height:350px}
+.case-numx{width:50%;float:left;position:relative}
+.case-p{text-align:center;word-wrap:break-word;width:465px}
+.user-img-div{width:100%;text-align:center}
+.join-us{font:700 42px "microsoft yahei";text-align:center;color:#828282;margin-top:47px}
+footer{width:100%;margin-top:15px;height:250px;background-color:#333330}
+.cute-footer{width:880px;margin:0 auto;height:205px;padding:40px 60px 0}
+.dituhui{font-size:inherit;color:inherit}
+.dthxw-title{margin:0;color:#fff;font-size:18px}
+.dthxw-disc{padding:23px 0 40px;margin:0;color:#fff;font:14px/24px "microsoft yahei"}
+.input-box{float:left;width:580px;font-size:14px;padding-left:29px}
+.contact-way{width:540px;background:#000;border:1px solid #474743;height:40px;padding:0 20px 0;margin-top:10px;color:#a9a9a9;outline:0}
+.user-suggest{width:540px;background:#000;height:126px;padding:0 20px 0;border:1px solid #474743;resize:none;line-height:35px;color:#a9a9a9;outline:0}
+.empty-send{border-color:red}
+.company-info{float:left;width:470px;color:#a9a9a9;font-size:12px;text-align:center;margin:20px 0 0;line-height:18px}
+.company-address{display:block}
+.submit-btn{float:right;margin-top:20px;background-color:#000;border:none;padding:0;color:#fff;width:65px;height:40px}
+.two-dimension-code{float:left;width:180px;height:250px;margin-left:55px;font-size:14px;color:#fff;text-align:center}
+.two-dimension-code img{width:180px;margin-bottom:30px}
+.mask-wrapper{height:100%;width:100%;position:fixed;background-color:rgba(0,0,0,.6);z-index:1;top:0;left:0;display:none}

@@ -1,0 +1,399 @@
+﻿body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, button, select, option, textarea, p, blockquote, th, td {
+    font-family: 'Helvetica', 'Microsoft YaHei', '黑体', '宋体', sans-serif;
+    font: 14px/20px;
+    word-break: break-all;
+    word-wrap: break-word;
+    padding: 0;
+    margin: 0
+}
+
+a, a:hover {
+    text-decoration: none
+}
+
+#login-submit {
+    margin-top: 12px;
+    cursor: pointer
+}
+
+#content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: #00a2ca
+}
+
+.dt-part {
+    width: 960px;
+    margin: auto;
+    position: relative
+}
+
+.dt-pad108y {
+    padding-top: 108px;
+    padding-bottom: 108px
+}
+
+.dt-mar18t {
+    margin-top: 18px
+}
+
+.left {
+    width: 49%;
+    float: left
+}
+
+.line {
+    float: left;
+    border-right: 1px solid #ccc;
+    height: 300px;
+    margin-top: 30px
+}
+
+.right {
+    width: 44%;
+    float: right
+}
+
+.dt-h24 {
+    height: 24px
+}
+
+.dt-h32 {
+    height: 32px
+}
+
+.dt-h30 {
+    height: 30px
+}
+
+.dt-h440 {
+    height: 440px
+}
+
+.login {
+    width: 960px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    height: 512px;
+    margin: -280px auto auto -480px
+}
+
+.login-panel {
+    margin-top: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    height: inherit;
+    padding: 10px 80px;
+    height: 370px
+}
+
+.login-txt {
+    padding: 4px;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-bottom: 2px solid #ffb552
+}
+
+#form-layout {
+    width: 336px
+}
+
+.login-reg {
+    padding: 6px 0;
+    margin-top: 0;
+    margin-bottom: 0
+}
+
+.login-txt a {
+    font-size: 18px;
+    color: #3a3a3a
+}
+
+#login-form {
+    margin-top: 56px
+}
+
+.dt-mar34t {
+    margin-top: 34px
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 42px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555555;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+}
+
+.form-control:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6)
+}
+
+.login-reg a {
+    font-size: 18px;
+    color: #999
+}
+
+.dt-hidden {
+    overflow: hidden
+}
+
+.dt-w600 {
+    width: 600px
+}
+
+.dt-mar-auto {
+    margin: 0 auto
+}
+
+.dt-mar160t {
+    margin-top: 160px
+}
+
+.dt-pad80 {
+    padding: 80px;
+    width: 960px
+}
+
+.dt-bg-e9 {
+    background-color: #e9e9e9
+}
+
+.dt-border-r5 {
+    border-radius: 5px
+}
+
+.dt-pad48y {
+    padding-top: 48px;
+    padding-bottom: 48px
+}
+
+.dt-pad108x {
+    padding-left: 108px;
+    padding-right: 108px
+}
+
+.dt-logo {
+    width: 170px;
+    height: 60px
+}
+
+.dt-f14 {
+    font-size: 14px
+}
+
+.dt-f20 {
+    font-size: 20px
+}
+
+.dt-pad2t {
+    padding-top: 2px
+}
+
+.dt-pad11t {
+    padding-top: 11px
+}
+
+.dt-pad24t {
+    padding-top: 24px
+}
+
+.dt-pad36t {
+    padding-top: 36px
+}
+
+.dt-pad64t {
+    padding-top: 64px
+}
+
+.dt-mirco {
+    font-family: "微软雅黑"
+}
+
+.pull-left {
+    float: left
+}
+
+.pull-right {
+    float: right
+}
+
+.dt-mar2t {
+    margin-top: 2px
+}
+
+.dt-mar20t {
+    margin-top: 20px
+}
+
+.dt-hr {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    height: 1px;
+    width: 100%;
+    border-bottom: 1px solid #c0c0c0
+}
+
+.dt-hidden {
+    overflow: hidden
+}
+
+.dt-pos-a {
+    position: absolute
+}
+
+.dt-w56 {
+    width: 56px
+}
+
+.dt-w100per {
+    width: 100%
+}
+
+.text-center {
+    text-align: center
+}
+
+.dt-line-32h {
+    line-height: 32px
+}
+
+.dt-z10 {
+    z-index: 10
+}
+
+.white {
+    color: #fff
+}
+
+.dt-pos-r {
+    position: relative
+}
+
+.dt-pos-r0 {
+    right: 0
+}
+
+.dt-pos-t28 {
+    top: 28px
+}
+
+.dt-border-03b8cc {
+    border: 1px solid #03b8cc
+}
+
+.color03b {
+    color: #03b8cc
+}
+
+.colorb9 {
+    color: #b9b9b9
+}
+
+.color54c {
+    color: #54c1cd
+}
+
+.input-control {
+    border-radius: 5px;
+    border: 0;
+    height: 40px;
+    width: 100%;
+    margin-top: 12px;
+    background-color: #fff
+}
+
+.input-text {
+    padding-left: 40px;
+    width: 348px;
+    height: 36px;
+    border: 0;
+    border-radius: 5px;
+    outline: 0
+}
+
+.input-button {
+    width: 100%;
+    height: 42px;
+    background-color: #428bca;
+    border: 0;
+    color: #fff;
+    border-radius: 5px
+}
+
+.icons {
+    background: url("hezi_icons.png")
+}
+
+.login-user {
+    width: 30px;
+    height: 34px;
+    background-position: -346px -76px;
+    position: absolute
+}
+
+.password {
+    width: 30px;
+    height: 34px;
+    background-position: -379px -76px;
+    position: absolute
+}
+
+.dt-f24 {
+    color: #00a2c9;
+    margin-left: 28px;
+    font-size: 24px;
+    margin-top: 22px
+}
+
+.img-layout {
+    margin-top: 35px;
+    margin-left: -10px
+}
+
+.messagebox {
+    margin-top: 8px;
+    background-color: #f2dede;
+    text-align: center;
+    border: 1px solid #ccc;
+    width: 310px;
+    color: #a94442;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 12px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 1px 2px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 1px 2px rgba(0, 0, 0, 0.05);
+    border-color: #dca7a7
+}
+
+a {
+    outline: 0;
+    border: 0
+}
+
+img {
+    border: 0
+}
+
+.new_user {
+    margin-top: 56px
+}
